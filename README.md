@@ -100,26 +100,32 @@ Content-Type: application/json
 
 ## ⚙️ Setup Instructions
 
-1. **Install dependencies**
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/MachineKe/yii2_blog_api.git
+   cd yii2_blog_api
+   ```
+
+2. **Install dependencies**
    ```sh
    composer install
    ```
 
-2. **Configure your database**  
+3. **Configure your database**  
    Edit `common/config/main.php` with your DB settings.
 
-3. **Run migrations**
+4. **Run migrations**
    ```sh
    php yii migrate
    ```
 
-4. **Serve the frontend API** (default port 8080)
+5. **Serve the frontend API** (default port 8080)
    ```sh
    php yii serve --port=8080 --docroot=frontend/web
    ```
    The API is available at: [http://localhost:8080/](http://localhost:8080/)
 
-5. **Serve the backend application** (default port 8081)
+6. **Serve the backend application** (default port 8081)
    ```sh
    php yii serve --port=8081 --docroot=backend/web
    ```
