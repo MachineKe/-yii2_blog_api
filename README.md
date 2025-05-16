@@ -1,10 +1,14 @@
 # Blog API
 
+[![Repository](https://img.shields.io/badge/GitHub-MachineKe%2Fyii2__blog__api-blue?logo=github)](https://github.com/MachineKe/yii2_blog_api)
+
 > **Note:**  
 > The API is currently served from the **frontend application URL** (e.g., `http://localhost:8080/` or `http://frontend.local/`).
 
 A RESTful API for a blog platform, providing endpoints to manage posts and comments.  
 Built with Yii2, supporting authentication, access control, and standard CRUD operations.
+
+**Repository:** [https://github.com/MachineKe/yii2_blog_api](https://github.com/MachineKe/yii2_blog_api)
 
 ---
 
